@@ -1,0 +1,34 @@
+public class pattern2{
+    public static void main(String[] args) {
+
+        int n = 10;
+
+        for (int i = 1; i <= n; i++) {
+
+            for (int j = 1; j <= n; j++) {
+
+                // First and last rows
+                if (i == 1 || i == n) {
+                    System.out.print("* ");
+                }
+
+                // First and last columns
+                else if (j == 1 || j == n) {
+                    System.out.print("+ ");
+                }
+
+                // Main diagonal
+                else if (i == j) {
+                    System.out.print("- ");
+                }
+
+                // Empty spaces
+                else {
+                    System.out.print("  ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+}
