@@ -22,6 +22,7 @@ public class MatrixMultiplication {
 
         if (c1 != r2) {
             System.out.println("Matrix multiplication is not possible.");
+            sc.close();
             return;
         }
 
