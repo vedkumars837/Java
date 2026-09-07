@@ -4,11 +4,11 @@ class conditional {
         if (a>b)
         {
             if (a>c)
-            {   System.out.println("a greater");
+            {   System.out.println("a is greatest");
             }
             else
             {
-                System.out.println("c is greater");
+                System.out.println("c is greatest");
             }
 
         }
@@ -16,11 +16,11 @@ class conditional {
         {
             if (b>c)
             {
-                System.out.println("b is greater");
+                System.out.println("b is greatest");
             }
             else
             {
-                System.out.println("c is greater");
+                System.out.println("c is greatest");
             }
         }
 
