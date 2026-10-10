@@ -9,7 +9,7 @@ class Car{
     
 }
 
-public class abc{
+public class xyz{
     public static void main(String[] args){
         Car mycar1 = new Car();
         mycar1.colour = "red";
